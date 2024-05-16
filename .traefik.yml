@@ -1,0 +1,11 @@
+displayName: Response Headers Filter Plugin
+type: middleware
+
+import: github.com/quortex/traefik-responseheadersfilter
+
+summary: "filter response headers based on a list of allowed headers"
+
+testData:
+  Headers:
+    - allowed-header-1
+    - allowed-header-2

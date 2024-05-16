@@ -1,0 +1,8 @@
+http:
+  middlewares:
+    my-traefik-responseheadersfilter:
+      plugin:
+        traefik-responseheadersfilter:
+          headers:
+            - allowed-header
+            - allowed-header-2

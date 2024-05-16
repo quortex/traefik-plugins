@@ -1,0 +1,21 @@
+log:
+  level: INFO
+
+experimental:
+  localPlugins:
+    traefik-responseheadersfilter:
+      moduleName: github.com/quortex/traefik-responseheadersfilter
+
+# API and dashboard configuration
+entryPoints:
+  http:
+    address: ":80"
+    forwardedHeaders:
+      insecure: true
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
+  file:
+    filename: /etc/traefik/dynamic-configuration.yml

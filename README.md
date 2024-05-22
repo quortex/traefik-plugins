@@ -1,6 +1,6 @@
 # Traefik Plugin: Response Headers Filter
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bmagic/traefik-plugin-filter-response-headers/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache2-blue.svg)](https://github.com/quortex/traefik-responseheadersfilter/blob/main/LICENSE)
 
 This repo contains a Traefik plugin that allows you to filter response headers based on a whitelist.
 
